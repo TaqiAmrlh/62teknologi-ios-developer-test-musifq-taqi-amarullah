@@ -11,6 +11,14 @@
 		BA77CB342A7782A2002B6480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB332A7782A2002B6480 /* ContentView.swift */; };
 		BA77CB362A7782A4002B6480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA77CB352A7782A4002B6480 /* Assets.xcassets */; };
 		BA77CB392A7782A4002B6480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA77CB382A7782A4002B6480 /* Preview Assets.xcassets */; };
+		BA77CB402A77833B002B6480 /* BoutCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB3F2A77833B002B6480 /* BoutCatView.swift */; };
+		BA77CB482A7785A6002B6480 /* GuessAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB472A7785A6002B6480 /* GuessAgeView.swift */; };
+		BA77CB4A2A7785EC002B6480 /* CuteDogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB492A7785EC002B6480 /* CuteDogsView.swift */; };
+		BA77CB4C2A77869F002B6480 /* GuessGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB4B2A77869F002B6480 /* GuessGenderView.swift */; };
+		BA77CB4E2A7787BA002B6480 /* IPInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB4D2A7787BA002B6480 /* IPInfoView.swift */; };
+		BA77CB522A77980F002B6480 /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB512A77980F002B6480 /* MainRootView.swift */; };
+		BA77CB562A779D7C002B6480 /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB552A779D7C002B6480 /* JokesView.swift */; };
+		BA77CB5E2A77AD5A002B6480 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77CB5D2A77AD5A002B6480 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		BA77CB332A7782A2002B6480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA77CB352A7782A4002B6480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA77CB382A7782A4002B6480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA77CB3F2A77833B002B6480 /* BoutCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutCatView.swift; sourceTree = "<group>"; };
+		BA77CB472A7785A6002B6480 /* GuessAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessAgeView.swift; sourceTree = "<group>"; };
+		BA77CB492A7785EC002B6480 /* CuteDogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuteDogsView.swift; sourceTree = "<group>"; };
+		BA77CB4B2A77869F002B6480 /* GuessGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessGenderView.swift; sourceTree = "<group>"; };
+		BA77CB4D2A7787BA002B6480 /* IPInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPInfoView.swift; sourceTree = "<group>"; };
+		BA77CB512A77980F002B6480 /* MainRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
+		BA77CB552A779D7C002B6480 /* JokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesView.swift; sourceTree = "<group>"; };
+		BA77CB5D2A77AD5A002B6480 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +68,17 @@
 			isa = PBXGroup;
 			children = (
 				BA77CB312A7782A2002B6480 /* FunProjectApp.swift */,
+				BA77CB5D2A77AD5A002B6480 /* SplashScreenView.swift */,
 				BA77CB332A7782A2002B6480 /* ContentView.swift */,
 				BA77CB352A7782A4002B6480 /* Assets.xcassets */,
 				BA77CB372A7782A4002B6480 /* Preview Content */,
+				BA77CB3F2A77833B002B6480 /* BoutCatView.swift */,
+				BA77CB472A7785A6002B6480 /* GuessAgeView.swift */,
+				BA77CB492A7785EC002B6480 /* CuteDogsView.swift */,
+				BA77CB4B2A77869F002B6480 /* GuessGenderView.swift */,
+				BA77CB4D2A7787BA002B6480 /* IPInfoView.swift */,
+				BA77CB552A779D7C002B6480 /* JokesView.swift */,
+				BA77CB512A77980F002B6480 /* MainRootView.swift */,
 			);
 			path = FunProject;
 			sourceTree = "<group>";
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA77CB4A2A7785EC002B6480 /* CuteDogsView.swift in Sources */,
 				BA77CB342A7782A2002B6480 /* ContentView.swift in Sources */,
+				BA77CB402A77833B002B6480 /* BoutCatView.swift in Sources */,
+				BA77CB522A77980F002B6480 /* MainRootView.swift in Sources */,
+				BA77CB4E2A7787BA002B6480 /* IPInfoView.swift in Sources */,
+				BA77CB4C2A77869F002B6480 /* GuessGenderView.swift in Sources */,
 				BA77CB322A7782A2002B6480 /* FunProjectApp.swift in Sources */,
+				BA77CB5E2A77AD5A002B6480 /* SplashScreenView.swift in Sources */,
+				BA77CB482A7785A6002B6480 /* GuessAgeView.swift in Sources */,
+				BA77CB562A779D7C002B6480 /* JokesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
